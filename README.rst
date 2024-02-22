@@ -1,102 +1,40 @@
-CKAN: The Open Source Data Portal Software
-==========================================
+<div class="Box-sc-g0xbh4-0 bJMeLZ js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><h1 tabindex="-1" dir="auto"><a id="user-content-ckan-the-open-source-data-portal-software" class="anchor" aria-hidden="true" tabindex="-1" href="#ckan-the-open-source-data-portal-software"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CKAN：开源数据门户软件</font></font></h1>
+<a href="https://opensource.org/licenses/AGPL-3.0" rel="nofollow"><img alt="执照" src="https://camo.githubusercontent.com/16ac9a07b3728fe5b597569a61a0faf1dd57977b00bca6928a8b72018fcd78b6/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6c6963656e73652d4147504c2d626c75652e7376673f7374796c653d666c6174" data-canonical-src="https://img.shields.io/badge/license-AGPL-blue.svg?style=flat" style="max-width: 100%;"></a>
+<a href="http://docs.ckan.org" rel="nofollow"><img alt="文档" src="https://camo.githubusercontent.com/3ff2a9b6e0d51418eeb75e852b8c386eb8494734046b49da3f6b32523124d726/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f646f63732d6c61746573742d627269676874677265656e2e7376673f7374796c653d666c6174" data-canonical-src="https://img.shields.io/badge/docs-latest-brightgreen.svg?style=flat" style="max-width: 100%;"></a>
+<a href="https://stackoverflow.com/questions/tagged/ckan" rel="nofollow"><img alt="StackOverflow 支持" src="https://camo.githubusercontent.com/65d134d7a9067779c1fa647d94aab707ae9cad2635c3e56760c6794b424be14d/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f737570706f72742d537461636b4f766572666c6f772d79656c6c6f77677265656e2e7376673f7374796c653d666c6174" data-canonical-src="https://img.shields.io/badge/support-StackOverflow-yellowgreen.svg?style=flat" style="max-width: 100%;"></a>
+<a href="https://circleci.com/gh/ckan/ckan" rel="nofollow"><img alt="构建状态" src="https://camo.githubusercontent.com/ce83d962e763bddbd338b796e6859ca08c83a5733cd3608998a7d4c12c5d98ca/68747470733a2f2f636972636c6563692e636f6d2f67682f636b616e2f636b616e2e7376673f7374796c653d736869656c64" data-canonical-src="https://circleci.com/gh/ckan/ckan.svg?style=shield" style="max-width: 100%;"></a>
+<a href="https://coveralls.io/github/ckan/ckan?branch=master" rel="nofollow"><img alt="覆盖状态" src="https://camo.githubusercontent.com/120f7e3d29e1a47c58b3f834539f315f2d0ba92412fc533b5d49196a5ffad7b4/68747470733a2f2f636f766572616c6c732e696f2f7265706f732f6769746875622f636b616e2f636b616e2f62616467652e7376673f6272616e63683d6d6173746572" data-canonical-src="https://coveralls.io/repos/github/ckan/ckan/badge.svg?branch=master" style="max-width: 100%;"></a>
+<a href="https://gitter.im/ckan/chat" rel="nofollow"><img alt="在 Gitter 上聊天" src="https://camo.githubusercontent.com/ef68dbd3614d387bdea85a2ed3e0753177e6741a90741f18e9b021a29932ff98/68747470733a2f2f6261646765732e6769747465722e696d2f67697474657248512f6769747465722e737667" data-canonical-src="https://badges.gitter.im/gitterHQ/gitter.svg" style="max-width: 100%;">
+</a>
+<p dir="auto"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CKAN是全球领先的开源数据门户平台</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。 CKAN 让发布、共享和处理数据变得容易。它是一个数据管理系统，提供了一个强大的平台，用于编目、存储和访问数据集，具有丰富的前端、完整的 API（用于数据和目录）、可视化工具等。请访问</font></font><a href="http://ckan.org/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ckan.org</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">了解更多信息。</font></font></p>
+<a name="user-content-installation"></a>
+<h2 tabindex="-1" dir="auto"><a id="user-content-installation" class="anchor" aria-hidden="true" tabindex="-1" href="#installation"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安装</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有关安装说明，</font><font style="vertical-align: inherit;">请参阅</font></font><a href="http://docs.ckan.org" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CKAN 文档。</font></font></a><font style="vertical-align: inherit;"></font></p>
+<a name="user-content-support"></a>
+<h2 tabindex="-1" dir="auto"><a id="user-content-support" class="anchor" aria-hidden="true" tabindex="-1" href="#support"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">支持</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您需要有关 CKAN 的帮助或想提出问题，请使用
+</font></font><a href="https://groups.google.com/a/ckan.org/forum/#!forum/ckan-dev" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ckan-dev</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">邮件列表、</font></font><a href="https://gitter.im/ckan/chat" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Gitter 上的 CKAN 聊天室</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或</font></font><a href="http://stackoverflow.com/questions/tagged/ckan" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Stack Overflow 上的 CKAN 标签</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（尝试在 Stack Overflow 和 ckan-dev</font></font><a href="https://groups.google.com/a/ckan.org/g/ckan-dev" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">档案中</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">搜索答案先问你的问题）。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您在 CKAN 中发现了错误，请在 CKAN 的</font></font><a href="https://github.com/ckan/ckan/issues"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">GitHub 问题</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">上打开一个新问题（尝试首先搜索以查看您的错误是否已经存在）。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您发现潜在的安全漏洞，请发送电子邮件至</font></font><a href="mailto:security@ckan.org"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">security@ckan.org</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，而不是在 GitHub 上创建公共问题。</font></font></p>
+<a name="user-content-contributing-to-ckan"></a>
+<h2 tabindex="-1" dir="auto"><a id="user-content-contributing-to-ckan" class="anchor" aria-hidden="true" tabindex="-1" href="#contributing-to-ckan"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为 CKAN 做出贡献</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">要为 CKAN 或其文档做出贡献，请参阅
+</font></font><a href="https://github.com/ckan/ckan/blob/master/CONTRIBUTING.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CONTRIBUTING</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
+<a name="user-content-mailing-list"></a>
+<h3 tabindex="-1" dir="auto"><a id="user-content-mailing-list" class="anchor" aria-hidden="true" tabindex="-1" href="#mailing-list"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">邮件列表</font></font></h3>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">订阅</font></font><a href="https://groups.google.com/a/ckan.org/forum/#!forum/ckan-dev" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ckan-dev</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">邮件列表以接收有关即将发布的版本和未来计划的新闻以及有关 CKAN 开发、部署等的问题和讨论。</font></font></p>
+<a name="user-content-community-chat"></a>
+<h3 tabindex="-1" dir="auto"><a id="user-content-community-chat" class="anchor" aria-hidden="true" tabindex="-1" href="#community-chat"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">社区聊天</font></font></h3>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您想谈论 CKAN 开发，请在</font></font><a href="https://gitter.im/ckan/chat" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Gitter 上的公共 CKAN 聊天</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">中向 CKAN 开发人员和 CKAN 社区成员问好。 Gitter 是免费且开源的；您可以使用 GitHub、GitLab 或 Twitter 帐户登录。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"></font><a href="http://webchat.freenode.net/?channels=ckan" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">旧的#ckan</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> IRC 频道（2014 年至 2018 年）的日志</font><font style="vertical-align: inherit;">可以在这里找到：
+ https: </font></font><a href="https://github.com/ckan/irc-logs"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//github.com/ckan/irc-logs</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
+<a name="user-content-wiki"></a>
+<h3 tabindex="-1" dir="auto"><a id="user-content-wiki" class="anchor" aria-hidden="true" tabindex="-1" href="#wiki"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">维基百科</font></font></h3>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您已经弄清楚如何使用 CKAN 做某事并希望为其他人记录它，请在</font></font><a href="https://github.com/ckan/ckan/wiki"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CKAN wiki</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">上创建一个新页面，并在 ckan-dev 邮件列表或 Gitter 上告诉我们。</font></font></p>
+<a name="user-content-copying-and-license"></a>
+<h2 tabindex="-1" dir="auto"><a id="user-content-copying-and-license" class="anchor" aria-hidden="true" tabindex="-1" href="#copying-and-license"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">复制和许可</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">本材料版权所有 (c) 2006-2023 开放知识基金会和贡献者。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它是开放的，并根据 GNU Affero 通用公共许可证 (AGPL) v3.0 获得许可，其全文可在以下位置找到：</font></font></p>
+<p dir="auto"><a href="http://www.fsf.org/licensing/licenses/agpl-3.0.html" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">http://www.fsf.org/licensing/licenses/agpl-3.0.html</font></font></a></p>
 
-.. image:: https://img.shields.io/badge/license-AGPL-blue.svg?style=flat
-    :target: https://opensource.org/licenses/AGPL-3.0
-    :alt: License
-
-.. image:: https://img.shields.io/badge/docs-latest-brightgreen.svg?style=flat
-    :target: http://docs.ckan.org
-    :alt: Documentation
-.. image:: https://img.shields.io/badge/support-StackOverflow-yellowgreen.svg?style=flat
-    :target: https://stackoverflow.com/questions/tagged/ckan
-    :alt: Support on StackOverflow
-
-.. image:: https://circleci.com/gh/ckan/ckan.svg?style=shield
-    :target: https://circleci.com/gh/ckan/ckan
-    :alt: Build Status
-
-.. image:: https://coveralls.io/repos/github/ckan/ckan/badge.svg?branch=master
-    :target: https://coveralls.io/github/ckan/ckan?branch=master
-    :alt: Coverage Status
-
-.. image:: https://badges.gitter.im/gitterHQ/gitter.svg
-    :target: https://gitter.im/ckan/chat
-    :alt: Chat on Gitter
-
-**CKAN is the world’s leading open-source data portal platform**.
-CKAN makes it easy to publish, share and work with data. It's a data management
-system that provides a powerful platform for cataloging, storing and accessing
-datasets with a rich front-end, full API (for both data and catalog), visualization
-tools and more. Read more at `ckan.org <http://ckan.org/>`_.
-
-
-Installation
-------------
-
-See the `CKAN Documentation <http://docs.ckan.org>`_ for installation instructions.
-
-
-Support
--------
-If you need help with CKAN or want to ask a question, use either the
-`ckan-dev`_ mailing list, the `CKAN chat on Gitter`_, or the `CKAN tag on Stack Overflow`_ (try
-searching the Stack Overflow and ckan-dev `archives`_ for an answer to your
-question first).
-
-If you've found a bug in CKAN, open a new issue on CKAN's `GitHub Issues`_ (try
-searching first to see if there's already an issue for your bug).
-
-If you find a potential security vulnerability please email security@ckan.org,
-rather than creating a public issue on GitHub.
-
-.. _CKAN tag on Stack Overflow: http://stackoverflow.com/questions/tagged/ckan
-.. _archives: https://groups.google.com/a/ckan.org/g/ckan-dev
-.. _GitHub Issues: https://github.com/ckan/ckan/issues
-.. _CKAN chat on Gitter: https://gitter.im/ckan/chat
-
-
-Contributing to CKAN
---------------------
-
-For contributing to CKAN or its documentation, see
-`CONTRIBUTING <https://github.com/ckan/ckan/blob/master/CONTRIBUTING.md>`_.
-
-Mailing List
-~~~~~~~~~~~~
-
-Subscribe to the `ckan-dev`_ mailing list to receive news about upcoming releases and
-future plans as well as questions and discussions about CKAN development, deployment, etc.
-
-Community Chat
-~~~~~~~~~~~~~~
-
-If you want to talk about CKAN development say hi to the CKAN developers and members of
-the CKAN community on the public `CKAN chat on Gitter`_. Gitter is free and open-source;
-you can sign in with your GitHub, GitLab, or Twitter account.
-
-The logs for the old `#ckan`_ IRC channel (2014 to 2018) can be found here:
-https://github.com/ckan/irc-logs.
-
-Wiki
-~~~~
-
-If you've figured out how to do something with CKAN and want to document it for
-others, make a new page on the `CKAN wiki`_ and tell us about it on the
-ckan-dev mailing list or on Gitter.
-
-.. _ckan-dev: https://groups.google.com/a/ckan.org/forum/#!forum/ckan-dev
-.. _#ckan: http://webchat.freenode.net/?channels=ckan
-.. _CKAN Wiki: https://github.com/ckan/ckan/wiki
-.. _CKAN chat on Gitter: https://gitter.im/ckan/chat
-
-
-Copying and License
--------------------
-
-This material is copyright (c) 2006-2023 Open Knowledge Foundation and contributors.
-
-It is open and licensed under the GNU Affero General Public License (AGPL) v3.0
-whose full text may be found at:
-
-http://www.fsf.org/licensing/licenses/agpl-3.0.html
+</article></div>
